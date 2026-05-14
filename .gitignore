@@ -1,0 +1,48 @@
+# Patient-level data
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Results and generated outputs
+results/*
+!results/.gitkeep
+!results/dowhy/
+!results/dowhy/.gitkeep
+!results/causalforestdml/
+!results/causalforestdml/.gitkeep
+!results/predictive_modeling/
+!results/predictive_modeling/.gitkeep
+
+outputs/
+figures/
+tables/
+logs/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.sav
+*.dta
+*.h5
+*.zip
+
+# Medical images
+*.dcm
+*.nii
+*.nii.gz
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
