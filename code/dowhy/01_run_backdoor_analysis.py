@@ -1,4 +1,4 @@
-"""
+﻿"""
 Run DAG-guided backdoor causal analysis for DXA-derived bone features and hip fracture.
 
 This script combines:
@@ -11,12 +11,12 @@ Important:
 - Outputs are written to the results directory and should usually be excluded from GitHub if they contain patient-level information.
 
 Example:
-    python scripts/01_run_backdoor_analysis.py \
+    python code/dowhy/01_run_backdoor_analysis.py \
         --data-path data/BackdoorData.csv \
         --out-dir results/dowhy
 
 Optional:
-    python scripts/01_run_backdoor_analysis.py \
+    python code/dowhy/01_run_backdoor_analysis.py \
         --data-path data/BackdoorData.csv \
         --out-dir results/dowhy \
         --complete-case all

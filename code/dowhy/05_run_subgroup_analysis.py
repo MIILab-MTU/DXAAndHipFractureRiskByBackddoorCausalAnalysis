@@ -1,4 +1,4 @@
-"""
+﻿"""
 Run male/female subgroup backdoor causal analysis and create subgroup forest plots.
 
 This script is the cleaned GitHub-ready version of the previous test12_sex.py workflow.
@@ -15,19 +15,19 @@ Default outputs:
     results/figures/subgroup/Figure_Backdoor_ForestPlot_Female_perSD.png/.pdf
 
 Example:
-    python scripts/05_run_subgroup_analysis.py \
+    python code/dowhy/05_run_subgroup_analysis.py \
         --data-path data/BackdoorData.csv \
         --sex-col Sex
 
 If your sex variable is coded numerically, specify the values directly, for example:
-    python scripts/05_run_subgroup_analysis.py \
+    python code/dowhy/05_run_subgroup_analysis.py \
         --data-path data/BackdoorData.csv \
         --sex-col Sex \
         --male-values 1 \
         --female-values 0
 
 If your dataset has already been split into male and female files:
-    python scripts/05_run_subgroup_analysis.py \
+    python code/dowhy/05_run_subgroup_analysis.py \
         --male-data-path data/Backdoor_Male.csv \
         --female-data-path data/Backdoor_Female.csv
 """

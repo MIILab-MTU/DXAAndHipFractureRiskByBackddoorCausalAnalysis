@@ -1,4 +1,4 @@
-"""
+﻿"""
 Create supplementary summary figures for DAG-guided backdoor causal effects.
 
 This script combines the previous family summary, region summary, and heatmap scripts.
@@ -23,10 +23,10 @@ Also saves summary tables:
     results/tables/Table_CausalEffect_Heatmap_perSD.csv
 
 Example:
-    python scripts/04_make_summary_figures.py
+    python code/dowhy/04_make_summary_figures.py
 
 Or:
-    python scripts/04_make_summary_figures.py \
+    python code/dowhy/04_make_summary_figures.py \
         --result-csv results/dowhy/backdoor_results_perSD_with_CI_and_refuters.csv \
         --fig-dir results/figures \
         --table-dir results/tables
