@@ -62,3 +62,13 @@ pip install -r requirements.txt
 ## Notes
 
 This repository is intended for code sharing and reproducibility. Restricted patient-level data and generated result files should not be uploaded to GitHub.
+
+## CausalForestDML Analysis
+
+The CausalForestDML scripts include:
+
+1. code/causalforestdml/01_run_causal_forest_dml.py  
+   Runs CausalForestDML analysis for all DXA-derived skeletal phenotypes and generates ATE, CATE, subgroup, and feature-importance outputs.
+
+2. code/causalforestdml/02_make_panel_figures.py  
+   Combines per-treatment CausalForestDML figures into 4x4 all-treatment panel figures.
