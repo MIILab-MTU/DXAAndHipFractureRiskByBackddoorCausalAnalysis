@@ -114,3 +114,11 @@ python code/predictive_modeling/03_run_pure_causal_topk_comparison.py --data-pat
 ## Notes
 
 The `data/` and `results/` folders are excluded from version control. Do not upload patient-level data, raw datasets, intermediate patient-level files, or model output files to GitHub.
+
+## Citation
+
+If you use this code in your research, please cite:
+
+Shi Z, Zhao C, Zhou M, et al. A Causally Guided Imaging-Informatics Framework for Ranking DXA-Derived Hip Imaging Phenotypes in Hip Fracture Risk Prediction. Journal of Imaging Informatics in Medicine. Accepted for publication, 2026.
+
+DOI: [10.1007/s10278-026-02498-7](https://doi.org/10.1007/s10278-026-02498-7)
